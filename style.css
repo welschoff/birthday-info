@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  --color-primary: #58a6ff;
+  --color-text: #c9d1d9;
+  --color-background: #0d1117;
+
+  /* BORDERS */
+  --border-radius: 15%;
+  --border: 1px solid var(--color-primary);
+
+  /* FONTS */
+  --font-family: "Noto Sans Mono", monospace;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-primary);
+}
+
+#app {
+  height: 100vh;
+  overflow: auto;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
