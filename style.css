@@ -41,3 +41,15 @@ h5 {
   align-content: center;
   justify-items: center;
 }
+
+.btn {
+  background-color: springgreen;
+  font-family: var(--font-family);
+  border: none;
+  border-radius: 1em;
+}
+
+.form {
+  display: grid;
+  row-gap: 0.5rem;
+}
